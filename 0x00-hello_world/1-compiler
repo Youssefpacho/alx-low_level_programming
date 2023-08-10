@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -S $CFILE -o $(basename "$CFILE" .c).o
+gcc -c $CFILE
 
