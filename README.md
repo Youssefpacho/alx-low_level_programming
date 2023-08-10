@@ -1,2 +1,1 @@
-# alx-low_level_programming
-ALX low level programming
+This is the first C project in ALX
