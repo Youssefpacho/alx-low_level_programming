@@ -2,13 +2,16 @@
 #include"main.h"
 
 /**
-  *main - entry point
+  *print_alphabet - prints alphabet
   *
-  *Return : Always 0
+  *Return: void
   */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char alph;
+
+	for (alph = 'a'; alph <= 'z'; alph++)
+		putchar(alph);
+	putchar('\n');
 }
