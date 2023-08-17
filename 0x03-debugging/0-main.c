@@ -1,6 +1,3 @@
-#include<stdio.h>
-#include<time.h>
-#include<stdlib>
 #include "main.h"
 
 /**
@@ -10,10 +7,10 @@
 
 int main(void)
 {
-	int i;
+        int i;
 
-	i = 0;
+        i = 98;
+        positive_or_negative(i);
 
-	positive_or_negative(i);
-	return (0);
+        return (0);
 }
